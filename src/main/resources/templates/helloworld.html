@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.17.11/css/uikit-core-rtl.min.css"
+          integrity="sha512-5EDrJK8+4w8UWRo+HpVPDRYgIzRljU0mvwi41qCRWr2aQy23xTJdd5h/kEC7tKEuqnlg4OAXTMdslhobQERM2A=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1 th:text = "'ThymeLeaf ' + ${message} + ' App'"></h1>
+    <button class="uk-button uk-button-default">test!</button>
+    <button>no class</button>
+    <div class="uk-card uk-card-body">
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m">
+            <h3 class="uk-card-title">Default</h3>
+            <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+</body>
+</html>
